@@ -50,7 +50,7 @@ def train():
         if epoch_val_loss < best_val:
             best_val = epoch_val_loss
             save_checkpoint(model, optimizer, CHECKPOINT)
-            print(f"  → Сохранена модель с val_loss={best_val:.4f}")
+            print(f" Сохранена модель с val_loss={best_val:.4f}")
 
     plt.figure(figsize=(8,5))
     plt.plot(train_losses, label='train_loss')
