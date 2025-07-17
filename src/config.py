@@ -18,3 +18,5 @@ DROPOUT = 0.3
 BATCH_SIZE = 64
 LR = 1e-3
 EPOCHS = 10
+
+# fefe
